@@ -1,24 +1,74 @@
 {
   "checklists": [
     {
-      "id": "6633",
-      "title": "top",
+      "id": "fe8d",
+      "title": "Lista de compras",
       "items": [
         {
-          "id": "893cdf03",
-          "description": "5",
+          "id": "6018b85d",
+          "description": "Maçã",
+          "checked": true
+        },
+        {
+          "id": "24493aab",
+          "description": "Banana",
+          "checked": true
+        },
+        {
+          "id": "268d50f9",
+          "description": "Macarrão",
+          "checked": true
+        },
+        {
+          "id": "f3b313a8",
+          "description": "Feijão",
+          "checked": true
+        },
+        {
+          "id": "1060c405",
+          "description": "Arroz",
           "checked": true
         }
       ]
     },
     {
-      "id": "7b68",
-      "title": "fdsa fdsafds af",
+      "id": "2bf4",
+      "title": "A fazer (Projeto Checklists)",
       "items": [
         {
-          "id": "6113867e",
-          "description": "top",
+          "id": "75910ccd",
+          "description": "Criar um novo checklist",
           "checked": true
+        },
+        {
+          "id": "87364aa5",
+          "description": "Criar um novo item para o checklist",
+          "checked": true
+        },
+        {
+          "id": "b0bebb0f",
+          "description": "Marcar item do checklist como feito",
+          "checked": true
+        },
+        {
+          "id": "456fef0d",
+          "description": "Excluir checklist",
+          "checked": true
+        },
+        {
+          "id": "f0597b6c",
+          "description": "Excluir item do checklist",
+          "checked": true
+        },
+        {
+          "id": "b55a35f2",
+          "description": "Renomear checklist",
+          "checked": false
+        },
+        {
+          "id": "e6c90017",
+          "description": "Renomear item do checklist",
+          "checked": false
         }
       ]
     }
