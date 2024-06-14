@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { UserCircle } from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -7,13 +6,6 @@ const Navbar = () => {
       <Link to={'/'}>
         <h1 className="text-xl text-white font-semibold">Checklists</h1>
       </Link>
-      <ul className="text-white">
-        <li>
-          <Link to={'/perfil'}>
-            <UserCircle />
-          </Link>
-        </li>
-      </ul>
     </nav>
   );
 };

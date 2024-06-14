@@ -1,8 +1,6 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import App from "./App";
-import Navbar from "./components/navbar";
-
-const Teste = () => <div>Sim</div>;
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import App from './App';
+import Navbar from './components/navbar';
 
 const Router = () => {
   return (
@@ -11,7 +9,6 @@ const Router = () => {
       <div className="pt-20" />
       <Routes>
         <Route Component={App} path="/" />
-        <Route Component={Teste} path="/perfil" />
       </Routes>
     </BrowserRouter>
   );
