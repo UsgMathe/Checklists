@@ -6,7 +6,6 @@ import Input from './components/input';
 import { randomHexId } from './utils';
 import Modal from './components/modal';
 import { Search } from 'lucide-react';
-// import { Link } from 'react-router-dom';
 
 function App() {
   const [checklistQuery, setChecklistQuery] = useState<string>();
@@ -21,9 +20,6 @@ function App() {
         : acc,
     0
   );
-
-  console.log(doneChecklists);
-  console.log(checklists);
 
   function getCheckListById(id: string) {
     return checklists?.find(checklist => checklist.id == id);
@@ -43,7 +39,6 @@ function App() {
   function handleSubmitChecklistForm(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (newChecklistInput.current) {
-      console.log(newChecklistInput.current.value);
       api
         .post('/checklists', {
           title: newChecklistInput.current.value,

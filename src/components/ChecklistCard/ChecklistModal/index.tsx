@@ -1,4 +1,4 @@
-import { ListChecks, Plus, X } from 'lucide-react';
+import { ListChecks, Plus } from 'lucide-react';
 import { useRef } from 'react';
 import Button from '../../button';
 import Input from '../../input';
