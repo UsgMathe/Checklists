@@ -19,7 +19,7 @@ Follow these steps to set up and run the project locally.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/UsgMathe/Checklists.git
+git clone https://github.com/UsgMathe/To-Do-List.git
 cd Checklists
 ```
 
