@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + JSON Server
+# React + Vite + Tailwindcss + TypeScript + JSON Server
 
 A simple To-Do List project using React, TypeScript, Vite, and JSON Server.
 
